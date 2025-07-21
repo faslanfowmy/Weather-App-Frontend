@@ -27,6 +27,9 @@ These credentials are already created in the Auth0 dashboard and assigned to the
 
 ### 1. Clone the repo
 
+# git clone https://github.com/faslanfowmy/Weather-App-Frontend.git
+cd Weather-App-Frontend
+
 2. Install dependencies
 
 npm install
