@@ -1,12 +1,54 @@
-# React + Vite
+# 🌤️ Weather App – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React-based frontend** of the Weather App built for the Fidenz Technologies assignment. It authenticates users using **Auth0**, displays real-time weather data using the **OpenWeatherMap API**, and communicates securely with the Spring Boot backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Auth0 login system (email/password)
+- 🌍 Search and display weather by city
+- 🌤️ Weather cards with temperature, humidity, wind, and cloud status
+- 💬 Detailed weather modal with sunrise/sunset and pressure
+- 🎨 Clean, responsive UI using custom styling
+- 🔗 Secure communication with backend via Auth0 JWT tokens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧪 Test Credentials (pre-configured)
+
+Credentials can be found on the assignment file 
+
+These credentials are already created in the Auth0 dashboard and assigned to the app.
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+2. Install dependencies
+
+npm install
+
+3.Run the App
+
+npm run dev
+
+
+ Then go to ---http://localhost:5173 (This is the port allowed in the backend server) so run the frontend on this port itself.
+
+
+## 📁 Folder Structure
+
+├── src/
+   ├── components/         # React components
+   ├── styles/             # CSS modules
+   ├── assets/             # Icons/images
+   ├── App.jsx             # Main entry
+   └── main.jsx
+
+
+
+
+
