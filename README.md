@@ -7,7 +7,7 @@ This is the **React-based frontend** of the Weather App built for the Fidenz Tec
 ## 🚀 Features
 
 - 🔐 Auth0 login system (email/password)
-- 🌍 Search and display weather by city
+- 🌍 View weather of cities displayed in cards
 - 🌤️ Weather cards with temperature, humidity, wind, and cloud status
 - 💬 Detailed weather modal with sunrise/sunset and pressure
 - 🎨 Clean, responsive UI using custom styling
