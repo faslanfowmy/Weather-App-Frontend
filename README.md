@@ -44,12 +44,20 @@ npm run dev
 
 ## 📁 Folder Structure
 
-├── src/
-   ├── components/         # React components
-   ├── styles/             # CSS modules
-   ├── assets/             # Icons/images
-   ├── App.jsx             # Main entry
-   └── main.jsx
+weather-app-frontend/
+├── public/                     # Static files
+│   └── index.html              # Main HTML file
+├── src/                        # Source code
+│   ├── assets/                 # Images, icons, etc.
+│   ├── components/             # Reusable React components
+│   ├── styles/                 # CSS files or modules
+│   ├── App.jsx                 # Root component
+│   └── main.jsx                # ReactDOM.render entry
+├── .gitignore                  # Ignored files
+├── package.json                # Project metadata and dependencies
+├── README.md                   # Project documentation
+└── vite.config.js              # Vite configuration
+
 
 
 
