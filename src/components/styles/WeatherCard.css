@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    margin: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    min-width: 500px;
+    background-color: #388ee7;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-view{
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-view{
+    background-color: #383b47;
+}
+
+.t-left-pane{
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.t-right-pane{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.t-left-pane .city-name{
+    font-size: 24px;
+    
+}
+
+.t-left-pane .date-time{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.status-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+.cloud-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.temp-status{
+    font-weight: 600;
+}
+
+.t-right-pane .temperature{
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 12px
+}
+
+.t-right-pane .min-temp{
+    margin-bottom: 5px;
+}
+
+.bottom-view{
+    display: flex;
+    flex-direction: row;
+    padding:30px 26px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ hr{
+    height: 60px;
+    opacity: 10%;
+ }
+
+ .b-left-pane,.b-middle-pane,.b-right-pane{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+ }
+
+ .b-left-pane .pressure-level, .b-left-pane .humidity-level, .b-left-pane .visibility-level{
+    font-size: 13px;
+    font-weight: 600;
+ }
+
+ .b-middle-pane{
+    align-items: center;
+ }
+
+ .navigation{
+    width: 25px;
+    height: 25px;
+ }
+
+
+

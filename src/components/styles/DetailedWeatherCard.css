@@ -1,0 +1,61 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailed-card {
+  width: 700px;
+  background-color: #1e1e2f;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: sans-serif;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.card-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.desc {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
